@@ -87,3 +87,59 @@ ls -ld ~/directorio1
 ``` bash
 chmod 640 ~/archivo1.txt
 ```
+
+### 4. Modificar Permisos usando chmod con Modo Simbólico
+
+``` bash
+chmod u+x ~/directorio1/archivo2.txt
+
+```
+
+### 5. Cambiar el Grupo Propietario
+
+``` bash
+chgrp grupo1 ~/directorio1/archivo2.txt
+
+
+```
+
+
+### 6. Configurar Permisos de Directorio
+
+``` bash
+chmod 740 ~/directorio1
+
+
+```
+
+### 7. Comprobación de Acceso como usuario2
+
+``` bash
+sudo su - usuario2
+cat /home/usuario1/archivo1.txt
+cat /home/usuario1/directorio1/archivo2.txt
+exit
+
+
+```
+
+### 8. Verificación Final
+
+``` bash
+ls -l ~/archivo1.txt
+ls -ld ~/directorio1      
+ls -l ~/directorio1/archivo2.txt
+
+
+
+```
+
+
+## ¿Por qué es importante gestionar correctamente los usuarios y permisos en un sistema operativo?
+Gestionar correctamente los usuarios y permisos es crucial para garantizar la seguridad y la privacidad de los datos en un sistema operativo. Permite controlar quién puede acceder a qué información y qué acciones pueden realizar, minimizando el riesgo de acceso no autorizado y daños potenciales.
+
+## ¿Qué otros comandos o técnicas conocen para gestionar permisos en Linux?
+ #### chown: Cambiar el propietario de un archivo o directorio.
+#### chgrp: Cambiar el grupo propietario de un archivo o directorio.
+#### umask: Establecer los permisos predeterminados para nuevos archivos y directorios.
+#### setfacl y getfacl: Establecer y obtener listas de control de acceso para una gestión de permisos más detallada.
