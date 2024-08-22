@@ -1,0 +1,11 @@
+[Unit]
+Description=Servicio de saludo y fecha
+
+[Service]
+ExecStart=/home/rodrigo/Documentos/so1_actividades_201700633/actividad4/script.sh
+Restart=always
+User=nobody
+Group=nogroup
+
+[Install]
+WantedBy=multi-user.target
