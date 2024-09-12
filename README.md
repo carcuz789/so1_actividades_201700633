@@ -5,3 +5,4 @@
 # [LINK A  -> actividad 3](actividad3/actividad3.md)
 # [LINK A  -> actividad 4](actividad4/actividad4.md)
 # [LINK A  -> actividad 5](actividad5/actividad5.md)
+# [LINK A  -> actividad 6](actividad5/actividad6.md)
